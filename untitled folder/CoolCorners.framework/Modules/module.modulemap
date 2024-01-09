@@ -1,0 +1,11 @@
+framework module CoolCorners {
+  umbrella header "CoolCorners.h"
+  export *
+
+  module * { export * }
+}
+
+module CoolCorners.Swift {
+  header "CoolCorners-Swift.h"
+  requires objc
+}
